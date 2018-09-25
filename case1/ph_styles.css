@@ -1,0 +1,59 @@
+@charset "utf-8";
+@font-face {
+    font-family: Quicksand;
+    src: url('cac_champagne.woff') format('woff'),
+    url('cac_champagne.ttf') format('truetype');
+    src: url('1942.woff') format('woff'),
+    url('1942.ttf') format('truetype');
+    src: url('DobkinPlain.woff') format('woff'),
+    url('DobkinPlain.ttf') format('truetype');
+}
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: James Allen & Austin Andrews 
+   Date: 9/20/18
+   
+   Filename: ph_styles.css
+
+*/
+
+
+/* Structural Styles */
+html {
+    background-color: hsl(91, 8%, 56%);
+}
+
+body {
+    background-color: hsl(58, 31%, 84%);
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+}
+
+
+
+/* Navigation Styles */
+
+
+
+
+/* Section Styles */
+
+
+
+
+/* Description List Styles */
+

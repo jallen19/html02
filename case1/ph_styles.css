@@ -1,11 +1,19 @@
-@charset "utf-8";
+@charset "utf-8"; 
 @font-face {
-    font-family: Quicksand;
+    font-family: 'Champagne';
     src: url('cac_champagne.woff') format('woff'),
     url('cac_champagne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Grunge';
     src: url('1942.woff') format('woff'),
     url('1942.ttf') format('truetype');
-    src: url('DobkinPlain.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Dobkin';
+     src: url('DobkinPlain.woff') format('woff'),
     url('DobkinPlain.ttf') format('truetype');
 }
 /*
@@ -29,14 +37,27 @@ html {
 
 body {
     background-color: hsl(58, 31%, 84%);
-    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+p {
     margin: 0px;
     padding-top: 5px;
     padding-right: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
+}
+
+body > p {
     font-size: 1.1em;
     text-align: center;
+}
+
+address {
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header {
@@ -46,14 +67,93 @@ header {
 
 
 /* Navigation Styles */
+nav a {
+    font-family: 'Trebuchet MS', Helvetcia, sans-serif;
+     padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: white;
+    background-color: hsla(0, 0%, 42%, 0.4);
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: hsla(0, 0%, 100%, 0.7);
+    background-color: hsla(0, 0%, 42%, 0.7);
+    text-decoration: none;
+}
 
 
 
 /* Section Styles */
 
+section.playbill h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
 
+#play1 {
+    background-color: hsl(240, 100%, 88%);
+}
+
+#play1 h1 {
+ font-family: 'Champagne', cursive;
+}
+
+#play2 {
+    background-color: hsl(25, 88%, 73%);
+}
+
+#play2 h1 {
+    font-family: 'Grunge', Times New Roman, Times, serif;
+}
+
+#play3 {
+    background-color: hsl(0, 100%, 75%);
+}
+
+#play3 h1 {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#play4 {
+    background-color: hsl(296, 86%, 86%);
+}
+
+#play4 h1 {
+font-family: 'Dobkin', cursive;
+}
 
 
 /* Description List Styles */
+
+dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.4)
+}
+
+dd {
+    font-size: 1.3em;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 

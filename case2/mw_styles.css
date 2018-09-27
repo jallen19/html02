@@ -75,9 +75,9 @@ nav > ul > li a:hover , nav > ul > li a:active {
     font-size: 1.1em;
 }
 
-#tour_summary p::first-line {
+#tour_summary header+p::first-line {
     font-size: 1.2em;
-    text-transform: capitalize;
+    font-variant: small-caps;
 }
     
 

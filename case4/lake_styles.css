@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+@import url("lake_layout.css");
+@font-face {
+    font-family: 'Dobkin';
+    src: url('DobkinPlain.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Champagne';
+    src: url('cac_champagne.ttf') format('truetype');
+}
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: James Allen & Austin Andrews
+   Date: October 1, 2018
+   
+   Filename: lake_styles.css
+
+*/
+
+/* Structural Styles */
+
+html {
+    background-color: green;
+}
+
+body {
+    background-color: rgb(255, 204, 255);
+}
+/*r Right Column */
+
+#rightcol {
+    background-color: rgb(255, 204, 255);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#rightcol h2 {
+    font-family: 'Champagne', cursive;
+    font-size: 1.8em;
+}
+
+#rightcol nav > ul > li a:link, nav#rightcol nav > ul > li a:visited {
+    text-decoration: none;
+    color: rgb(191, 128, 255);
+    line-height: .5em;
+    font-size: .9em;
+}
+
+#rightcol nav > ul > li a:hover, nav#rightcol nav > ul > li a:active {
+    text-decoration: none;
+    color: white;
+}
+
+#rightcol ul  {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 5px;
+}
+
+#rightcol blockquote {
+    color: rgb(140, 26, 255);
+}
+
+#leftcol h1 {
+    font-family: 'Champagne', cursive;
+    font-size: 3em;
+    margin: 0px;
+}
+
+body > header > nav {
+    background-color: hsl(300, 100%, 30%)
+}
+
+body > header > nav > ul > li a:link, body > header > nav > ul > li a:visited {
+    color: white;
+    text-decoration: none;
+}
+    
+body > header > nav > ul > li a:hover, body > header > nav > ul > li a:active {
+    background-color: hsla(0, 0%, 42%, 0.7);
+    text-decoration: none;
+}
+
+#rightcol blockquote:before {
+    content: open-quote;
+    font-size: 2.3em;
+    font-family: 'Champagne', cursive;
+}
+
+#rightcol blockquote:after {
+    content: close-quote;
+    font-size: 2.3em;
+    font-family: 'Champagne', cursive;
+}
+
+aside#Notes {
+    background-color: rgb(255, 128, 128);
+}
+
+aside#Events {
+    background-color: rgb(179, 134, 0);
+}
+
+aside#Notes h1 {
+    font-size: 1.6em;
+    font-family: none;
+    text-align: center;
+}
+
+aside#Events h1 {
+    font-size: 1.6em;
+    font-family: none;
+    text-align: center;
+}
+
+body > footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+#leftcol {
+ background-color: white;
+}
+    
+    
+    
